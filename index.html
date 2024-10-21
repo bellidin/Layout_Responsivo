@@ -7,21 +7,44 @@
     <title>Layout Responsivo</title>
 </head>
 <body>
-    <section id="container">
-        <div class="account"></div>
-        <div class="content"></div>
-        <h2>Create Account</h2>
-        <div class="form"></div>
-        <div class="inputBox">
-            <i>Name</i>
-            <input type="text" required>
-            <i>E-mail</i>
-            <input type="text" required>
-            <i>Password</i>
-            <input type="password" required>
+    <!-- tag semântica principal -->
+    <main>
+        <!-- título principal -->
+         <h1>Create Account</h1>
+         <div class="sociais">
+            <a href="https://www.google.com.br/">
+                <img src="Tela_Login/assets/google.png" alt="Google">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="Tela_Login/assets/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="Tela_Login/assets/linkedin.png" alt="Linkedin">
+            </a>
         </div>
-    <div class="botao"></div>
-        <input type="submit" value="Sign Up">
+        <div class="alternative">
+            <span>OU</span>
+        </div>
+        <form action="">
+            <label for="name">
+                <span>Name</span>
+                <input type="text" id="name" name="name">
+            </label>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" id="email" name="email">
+            </label>
+            <label for="password">
+                <span>Password</span>
+                <input type="password" id="password" name="password">
+            </label>
+            <input type="submit" value="Sign Up">
+        </form>
+    </main>
+    <section class="imagem">
+        <!-- imagem lateral da página -->
+         <img src="Tela_Login/assets/mobile.svg" alt="imagem_decorativa">
+         <div class="circle"></div>
     </section>
 </body>
 </html>
